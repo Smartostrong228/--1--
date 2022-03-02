@@ -1,0 +1,18 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace первый_код
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Введите свое имя");
+            string UserName = Console.ReadLine();
+            Console.WriteLine($"Здраствуйте {UserName}, Сейчас {DateTime.Now}");
+        }
+    }
+}
